@@ -34,4 +34,9 @@ public class Passenger2Service {
     public Passenger2 findPassengerByName(String name){
         return PassengerRepo.findPassengerByName(name);
     }
+
+    public void deletePassenger(Long count)
+    {
+        PassengerRepo.deleteById(count);
+    }
 }
