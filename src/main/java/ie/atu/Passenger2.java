@@ -58,7 +58,7 @@ public class Passenger2{
             this.title = title;
         }
         else{
-            throw new IllegalArgumentException("Title Invalid. MUST be either Mr, Mrs or Ms");
+            throw new IllegalArgumentException("Title Error. MUST be either Mr, Mrs or Ms");
         }
     }
 
